@@ -1,0 +1,227 @@
+<html>
+internal style sheet
+<head>
+ <link rel="stylesheet" href="style1.css">
+
+</head>
+
+
+<h2>
+<p style ="color:blue; back-ground-color:yellow"> welcome to maresh<p>
+</h2>
+<title> css tutorial</title>
+<style type="text/css">
+    h1{
+           color:red;
+           }
+</style>
+<h1> <i> this is yoy<i></h1>
+
+1.create html file <p>
+2.create css file with .css extension<p>
+3.write style code in that css file<p>
+4.link css file with html file
+5 tpyes of selectors
+     1.tagbased
+    2. id based(#) id="one"
+     id="two"
+
+
+      #two{
+                 }
+    3.class based selectors
+       <h1 class="first"><h1>
+  <h1 class="second"><h1>
+      .first{ color:red;
+               }
+
+combinator selectors
+1.descent(space)
+
+    <div> used to divide html page to sections</div>
+div h1{ color: red;}
+
+2.child(>)
+div >h1{ color: red;} only direct child applicable
+3.adjacent(+)
+immediate tag
+div +h1{ color: red;}
+4.general(~)
+div ~h1{ color: red;}
+
+sudo class selectors(:)
+
+li:first-child(:){
+                      color:red
+                      }
+hover may change text color
+active
+visited
+sudo element selector
+ particular part may applicable
+    h1::first-letter{ color: red;}
+  selection also applicable
+Attribute selectors
+font[color]{color:green}
+
+       BORDER STYLES/PROPERTIES
+<head>
+<title>css tutorials</title>
+<style type="text/css">
+
+
+solid
+h1{border-width:2px;
+      border-style:solid;
+       border-color:green;
+}</style>
+
+dotted
+h1{border-width:2px;
+      border-style:solid;
+       border-color:green;
+}</style>
+
+dashed
+h1{border-width:2px;
+      border-style:solid;
+       border-color:green;
+}</style>
+
+double
+groove
+ridge
+inset
+outset
+none
+mix
+border -width
+h1{border-width: 2px 4px 5px 6px; we can also ridge dotted solid double
+      border-style:solid;
+       border-color:green;
+border-radius: 3px; edges become soft
+
+}</style>
+
+border-style
+border-color
+colr properties
+ element/text color
+background-color
+css background styles
+ 1.background -color
+    h1<color:  rgb(255,0,0); we may give green,blue etc
+        background-color:pink;
+        WE can give bgcolor for every element
+h1{  color: green;
+        background-color:pink}
+ 2.background-image
+h1{ 
+        background-image: url('tulip.jpg);
+       }
+body{
+            background-image: url('tulip.jpg);
+             background-repeat: norepeat
+}
+           
+     background-repeat
+body{
+            background-image: url('tulip.jpg);
+             background-repeat: no-repeat;
+background-position: right top;
+background-position: right bottom;
+background-attachement: right top;
+}
+       no-repeat
+       repeat-x
+       repeat-y
+      
+     background-position
+     background-attachment
+
+margines
+p{
+     border:3px solid green; 
+     margin:10px:   take 10px all sides
+     margin-left:10px
+     margin-right:50px
+     margin-bottom:10px
+     margin:auto;    horizontal center
+padding: 10px 20px 15px 12px;  inside border
+padding-top:10px;
+margin: inherit; get all items childs
+
+font styles
+1.font family
+h1{
+       font-family: Ariel;
+       font-family: "times new roman"; we can give options also
+      
+}
+2. font style
+h1{
+       font-family: Ariel;
+       font-style: italic; we can give options also
+      font-size:25px
+      font-weight: bold;
+}
+3.font size
+4.font weight
+css text styles
+1 color
+h1{
+       color: blue;
+        text-align: right;
+        text-decoration: overline/underline
+        text-transform: lowercase;
+        text-indent: 20px; extra spacing
+        letter-spacing: 5px;
+        word-spacing:5px;
+        text-shadow: 2px 2px green;
+
+2 align
+3decoration
+4 transform-- lowcase/uppercase/captilize
+5 letter spacing
+6 word soacing
+7 line-height
+8 text indent--additional margin
+9.shadow
+how to keep multiple images
+body{
+          background-image: url(image1.jpg),url(image2.jpg
+          background-repeat: no-repeat;
+          background-position: bottom, right top;
+ background-size: cover;
+background-size: 50% 50%;
+
+
+over flow
+
+p{  border: 5px dashed blue;
+overflow: scroll; to get scroll bar on screen
+}
+visible
+scroll
+/hidden
+/auto
+  float and clear--- image matter display using html side by side
+<style>  
+ img{
+        float: left; right
+}
+--for matter
+   <p id="first"></p>
+<p id="second"> </p>
+<style>
+#first{ width:500px;
+border: 3px;
+ 
+
+</style>
+
+
+
+</head>
+<html>
+
